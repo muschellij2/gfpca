@@ -17,6 +17,7 @@
 #' @author Jan Gertheiss \email{jan.gertheiss@@agr.uni-goettingen.de} and
 #' Ana-Maria Staicu \email{astaicu@@ncsu.edu}
 #' @import mgcv
+#' @import stats
 covHall <- function(data, u, bf=10, pve=.9, eps=0.01, nu=1,
                     mu.fit=NULL){
   
